@@ -1,0 +1,29 @@
+body {
+  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif !important;
+}
+@media screen and (max-width: 1123px) {
+  #app {
+    width: 75%;
+    margin: 0 0 5% 85px;
+  }
+  #example {
+    width: 70%;
+    margin-left: 65px;
+  }
+}
+@media screen and (min-width: 1124px) {
+  #booking {
+    position:sticky;
+    top:-50px;
+    float: right;
+    margin-right: -15px;
+  }
+  #app {
+    width: 49%;
+    margin: 0 0 5% 50px;
+  }
+  #example {
+    width: 51%;
+    margin-left: 30px;
+  }
+}

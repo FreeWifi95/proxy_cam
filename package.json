@@ -1,17 +1,29 @@
 {
-  "name": "",
-  "version": "",
-  "description": "",
+  "name": "proxy_cam",
+  "description": "> Project description",
   "author": "",
-  "license": "",
-  "engines": {
-    "node": ">=6.13.0"
-  },
-  "scripts": {
-  },
+  "license": "ISC",
+  "engines": {},
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
   "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "express": "^4.16.3",
+    "request": "^2.87.0"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
-  }
+    "eslint": "^4.19.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeWifi95/proxy_cam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FreeWifi95/proxy_cam/issues"
+  },
+  "homepage": "https://github.com/FreeWifi95/proxy_cam#readme"
 }

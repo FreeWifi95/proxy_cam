@@ -1,0 +1,454 @@
+.bootstrap-iso {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.bootstrap-iso {
+  margin: 0;
+}
+.bootstrap-iso article,
+.bootstrap-iso aside,
+.bootstrap-iso details,
+.bootstrap-iso figcaption,
+.bootstrap-iso figure,
+.bootstrap-iso footer,
+.bootstrap-iso header,
+.bootstrap-iso hgroup,
+.bootstrap-iso main,
+.bootstrap-iso menu,
+.bootstrap-iso nav,
+.bootstrap-iso section,
+.bootstrap-iso summary {
+  display: block;
+}
+.bootstrap-iso audio,
+.bootstrap-iso canvas,
+.bootstrap-iso progress,
+.bootstrap-iso video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.bootstrap-iso audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+.bootstrap-iso [hidden],
+.bootstrap-iso template {
+  display: none;
+}
+.bootstrap-iso a {
+  background-color: transparent;
+}
+.bootstrap-iso a:active,
+.bootstrap-iso a:hover {
+  outline: 0;
+}
+.bootstrap-iso abbr[title] {
+  border-bottom: 1px dotted;
+}
+.bootstrap-iso b,
+.bootstrap-iso strong {
+  font-weight: bold;
+}
+.bootstrap-iso dfn {
+  font-style: italic;
+}
+.bootstrap-iso h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.bootstrap-iso mark {
+  background: #ff0;
+  color: #000;
+}
+.bootstrap-iso small {
+  font-size: 80%;
+}
+.bootstrap-iso sub,
+.bootstrap-iso sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+.bootstrap-iso sup {
+  top: -0.5em;
+}
+.bootstrap-iso sub {
+  bottom: -0.25em;
+}
+.bootstrap-iso img {
+  border: 0;
+}
+.bootstrap-iso svg:not(:root) {
+  overflow: hidden;
+}
+.bootstrap-iso figure {
+  margin: 1em 40px;
+}
+.bootstrap-iso hr {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+.bootstrap-iso pre {
+  overflow: auto;
+}
+.bootstrap-iso code,
+.bootstrap-iso kbd,
+.bootstrap-iso pre,
+.bootstrap-iso samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+.bootstrap-iso button,
+.bootstrap-iso input,
+.bootstrap-iso optgroup,
+.bootstrap-iso select,
+.bootstrap-iso textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+.bootstrap-iso button {
+  overflow: visible;
+}
+.bootstrap-iso button,
+.bootstrap-iso select {
+  text-transform: none;
+}
+.bootstrap-iso button,
+.bootstrap-iso input[type="button"],
+.bootstrap-iso input[type="reset"],
+.bootstrap-iso input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+.bootstrap-iso button[disabled],
+.bootstrap-iso input[disabled] {
+  cursor: default;
+}
+.bootstrap-iso button::-moz-focus-inner,
+.bootstrap-iso input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.bootstrap-iso input {
+  line-height: normal;
+}
+.bootstrap-iso input[type="checkbox"],
+.bootstrap-iso input[type="radio"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+.bootstrap-iso input[type="number"]::-webkit-inner-spin-button,
+.bootstrap-iso input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+.bootstrap-iso input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.bootstrap-iso input[type="search"]::-webkit-search-cancel-button,
+.bootstrap-iso input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+.bootstrap-iso fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+.bootstrap-iso legend {
+  border: 0;
+  padding: 0;
+}
+.bootstrap-iso textarea {
+  overflow: auto;
+}
+.bootstrap-iso optgroup {
+  font-weight: bold;
+}
+.bootstrap-iso table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.bootstrap-iso td,
+.bootstrap-iso th {
+  padding: 0;
+}
+.bootstrap-iso * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.bootstrap-iso *:before,
+.bootstrap-iso *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.bootstrap-iso {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.bootstrap-iso {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  background-color: #ffffff;
+}
+.bootstrap-iso input,
+.bootstrap-iso button,
+.bootstrap-iso select,
+.bootstrap-iso textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.bootstrap-iso a {
+  color: #337ab7;
+  text-decoration: none;
+}
+.bootstrap-iso a:hover,
+.bootstrap-iso a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+.bootstrap-iso a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.bootstrap-iso figure {
+  margin: 0;
+}
+.bootstrap-iso img {
+  vertical-align: middle;
+}
+.bootstrap-iso .img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.bootstrap-iso .img-rounded {
+  border-radius: 6px;
+}
+.bootstrap-iso .img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+.bootstrap-iso .img-circle {
+  border-radius: 50%;
+}
+.bootstrap-iso hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
+}
+.bootstrap-iso .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.bootstrap-iso .sr-only-focusable:active,
+.bootstrap-iso .sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+}
+.bootstrap-iso [role="button"] {
+  cursor: pointer;
+}
+.bootstrap-iso .modal-open {
+  overflow: hidden;
+}
+.bootstrap-iso .modal {
+  display: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+}
+.bootstrap-iso .modal.fade .modal-dialog {
+  -webkit-transform: translate(0, -25%);
+  -ms-transform: translate(0, -25%);
+  -o-transform: translate(0, -25%);
+  transform: translate(0, -25%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.bootstrap-iso .modal.in .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+.bootstrap-iso .modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.bootstrap-iso .modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 10px;
+}
+.bootstrap-iso .modal-content {
+  position: relative;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  outline: 0;
+}
+.bootstrap-iso .modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #ffffff;
+}
+.bootstrap-iso .modal-backdrop.fade {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.bootstrap-iso .modal-backdrop.in {
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+.bootstrap-iso .modal-header {
+  padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.bootstrap-iso .modal-header .close {
+  margin-top: -2px;
+}
+.bootstrap-iso .modal-title {
+  margin: 0;
+  line-height: 1.42857143;
+}
+.bootstrap-iso .modal-body {
+  position: relative;
+  padding: 15px;
+}
+.bootstrap-iso .modal-footer {
+  padding: 15px;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+.bootstrap-iso .modal-footer .btn + .btn {
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+.bootstrap-iso .modal-footer .btn-group .btn + .btn {
+  margin-left: -1px;
+}
+.bootstrap-iso .modal-footer .btn-block + .btn-block {
+  margin-left: 0;
+}
+.bootstrap-iso .modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+@media (min-width: 100px) {
+  .bootstrap-iso .modal-dialog {
+    width: 370px;
+    margin: 30px auto;
+  }
+  .bootstrap-iso .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  .bootstrap-iso .modal-sm {
+    width: 370px;
+  }
+}
+@media (min-width: 992px) {
+  .bootstrap-iso .modal-lg {
+    width: 370px;
+  }
+}
+.bootstrap-iso .clearfix:before,
+.bootstrap-iso .clearfix:after,
+.bootstrap-iso .modal-header:before,
+.bootstrap-iso .modal-header:after,
+.bootstrap-iso .modal-footer:before,
+.bootstrap-iso .modal-footer:after {
+  content: " ";
+  display: table;
+}
+.bootstrap-iso .clearfix:after,
+.bootstrap-iso .modal-header:after,
+.bootstrap-iso .modal-footer:after {
+  clear: both;
+}
+.bootstrap-iso .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bootstrap-iso .pull-right {
+  float: right !important;
+}
+.bootstrap-iso .pull-left {
+  float: left !important;
+}
+.bootstrap-iso .hide {
+  display: none !important;
+}
+.bootstrap-iso .show {
+  display: block !important;
+}
+.bootstrap-iso .invisible {
+  visibility: hidden;
+}
+.bootstrap-iso .text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.bootstrap-iso .hidden {
+  display: none !important;
+}
+.bootstrap-iso .affix {
+  position: fixed;
+}
