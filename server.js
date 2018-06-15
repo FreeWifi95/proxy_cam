@@ -10,7 +10,6 @@ app.get('/:id/photosBundle.js', (req, res) => {
     if (error) {
       console.log(error);
     }
-    console.log(body);
     res.send(body);
   })
 });
@@ -104,7 +103,6 @@ app.get('/:id/bundle.js', (req, res) => {
     if (error) {
       console.log(error);
     }
-    console.log(body);
     res.send(body);
   })
 });
